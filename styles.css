@@ -157,3 +157,67 @@ nav a{
     justify-content: space-between;
     margin-bottom: 100px;
 }
+.ready-focus div h1{
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+}
+.ready-focus div p{
+    text-align: center;
+     
+}
+.ready-focus div a button{
+    /* margin:10px 470px ;
+    padding: 12px 36px; */
+    margin-left: 450px;
+}
+.ready-focus img{
+    margin-top: 0;
+}
+.ready-focus div{
+    margin-bottom: 0;
+}
+.ready-focus{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.get-in-touch-box{
+    font-weight: bolder;
+    font-size: 200;
+    /* margin: auto; */
+    margin-top: 150px;
+}
+.get-in-touch{
+        background-color: rgba(78, 71, 255, 0.1);
+        margin-left: 150px;
+        margin-right: 150px;
+        display: flex;
+        justify-content: space-around;
+}
+.form input[type="text"], .form input[type="email"], .form textarea{
+    height: 60px;
+    width: 100%;
+    border-radius: 5px;
+    display: block;
+    padding: 10px 20px;
+    border: lightblue;
+
+}
+footer{
+    margin: 100px 450px;
+    text-align: center;
+}
+footer h1{
+    color: #4E47FF;
+    font-size: 100px;
+    font-weight: bolder;
+}
+footer p{
+    font-weight: 300;
+
+}
+footer div{
+    font-weight: 300;
+    display: flex;
+    justify-content: space-around;
+}
