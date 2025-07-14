@@ -56,4 +56,104 @@ nav a{
     border-radius: 10px;
     padding: 12px 36px;
     margin: auto;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+.banner-heading{
+    color: #252432 ;
+    font-weight: bold;
+    font-size: 35px;
+}
+.banner{
+    margin-left: 140px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+.banner-description{
+    color: rgba(37, 36, 50, 0.5);
+    font-size: 24px;
+    font-weight: 400;
+    margin-right: 370px;
+}
+ 
+
+.banner img{
+    /* align-items: center ; */
+    margin-right: 100px;
+    border-radius: 48px;
+}
+.users{
+    margin: auto;
+    margin-left: 280px;
+    margin-right: 300px;
+    /* background-color: rgba(255, 255, 255, 1); */
+    background-color: rgba(78, 71, 255, 0.1);
+
+}
+.users-rate{
+    font-weight: bold;
+    font-size: 38px;
+    color: #252432;
+    text-align:center;
+    margin-top: 100px;
+    margin: auto;
+}
+.users-explanation p{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+.users-explanation h2{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+    margin-bottom: 0;
+}
+.users-no{
+    display: flex;
+    justify-content: space-between;
+    /* margin-left: 140px; */
+}
+
+.users{
+    margin-left: 140px;
+    margin-right: 160px;
+    border-radius: 24px;
+}
+.users-explanation{
+    margin-left: 142px;
+    /* margin-right: 142px; */
+    margin: auto;
+}
+.users-saying{
+    margin-top: 140px;
+}
+.users-say{
+    font-weight: bold;
+    font-size: 42px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 100px;
+}
+.users-saying{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.comments img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.comments{
+    display: flex;
+}
+.rating-box{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
 }
