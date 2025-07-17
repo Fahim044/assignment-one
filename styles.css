@@ -21,9 +21,13 @@ nav a{
        padding: 12px 36px;
        border: none;
        border-radius: 10px;
+       cursor: pointer;
 }
-.header{
-    background-image: url(../Assets/Hero-bg.png);
+.btn-primary:hover{
+background-color: yellowgreen;
+}
+.header-nav{
+    background-image: url(Assets/Hero-bg.png);
 }
 .header-middle{
     font-weight: bold;
@@ -58,6 +62,10 @@ nav a{
     margin: auto;
     margin-bottom: 100px;
     margin-top: 50px;
+    cursor: pointer;
+}
+.btn-primary2:hover{
+    background-color: yellowgreen;
 }
 .banner-heading{
     color: #252432 ;
@@ -69,6 +77,7 @@ nav a{
     display: flex;
     justify-content: space-around;
     margin-bottom: 100px;
+    margin-top: 116px;
 }
 .banner-description{
     color: rgba(37, 36, 50, 0.5);
